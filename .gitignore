@@ -33,10 +33,14 @@ core
 # Coverage and test artifacts
 coverage/
 
-# Keep generated source files (e.g. lex.yy.c, *.tab.c) under source control unless you
-# want them ignored explicitly. Uncomment the following lines to ignore typical
-# generated parser/lexer outputs if desired:
-# lex.yy.c
-# *.tab.c
-# *.tab.h
+
 /midsem
+
+lex.yy.c
+*.tab.c
+*.tab.h
+q1
+q2
+q3
+q4
+a.out
