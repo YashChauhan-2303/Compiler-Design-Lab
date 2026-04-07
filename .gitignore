@@ -1,1 +1,42 @@
+# Common ignores for C projects and editors
+
+# Build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.out
+a.out
+
+# Compiled program executables
+*.exe
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Core dumps
+core
+
+# Coverage and test artifacts
+coverage/
+
+# Keep generated source files (e.g. lex.yy.c, *.tab.c) under source control unless you
+# want them ignored explicitly. Uncomment the following lines to ignore typical
+# generated parser/lexer outputs if desired:
+# lex.yy.c
+# *.tab.c
+# *.tab.h
 /midsem
